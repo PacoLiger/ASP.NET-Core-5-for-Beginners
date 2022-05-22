@@ -31,7 +31,7 @@ jobs:
       continue-on-error: true
       run:  | 
         git config --global user.name "GitHub Actions"
-        git config --global user.email "your@email.com"
+        git config --global user.email "francois_liger@orange.fr"
         git checkout -B pages
     
     - name: Clear pages branch
